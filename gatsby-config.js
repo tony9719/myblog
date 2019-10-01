@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+  pathPrefix: "/myblog",
   siteMetadata: {
     title: 'Ghost',
     description: 'The professional publishing platform',
