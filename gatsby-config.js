@@ -3,9 +3,9 @@ const path = require('path');
 module.exports = {
   pathPrefix: "/myblog",
   siteMetadata: {
-    title: 'Ghost',
-    description: 'The professional publishing platform',
-    siteUrl: 'https://gatsby-casper.netlify.com', // full path to blog - no ending slash
+    title: 'Tony',
+    description: 'My Blog, My Projects. Open Source, Open World.',
+    siteUrl: 'https://tony9719.github.io/myblog/', // full path to blog - no ending slash
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml',
@@ -48,7 +48,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://gatsby-casper.netlify.com',
+        siteUrl: 'https://tony9719.github.io/myblog/',
       },
     },
     'gatsby-plugin-emotion',
@@ -64,6 +64,7 @@ module.exports = {
       },
     },
     {
+      //work in progress -> to do - 0% -
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: 'UA-XXXX-Y',
