@@ -24,6 +24,5 @@ jobs:
       - run: |
           echo This job does specify a Tony container.
           echo It runs in the container instead of the VM.
-          sudo apt-get install ruby-full build-essential zlib1g-dev
-          gem install jekyll bundler
+          whoami
         name: Run in container
