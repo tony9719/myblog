@@ -18,7 +18,7 @@ jobs:
         name: Run on VM
   container:
     runs-on: ubuntu-latest
-    container: node:1.1-tonystry
+    container: fedora:latest
     steps:
       - run: |
           echo It runs in the container instead of the VM.
